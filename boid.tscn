@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://l7bfkad8pavo"]
+
+[ext_resource type="Texture2D" uid="uid://y66aygybvtyd" path="res://triangle.png" id="1_h6dcu"]
+[ext_resource type="Script" path="res://Boid.gd" id="1_t666e"]
+
+[node name="Boid" type="Sprite2D" groups=["boids"]]
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_h6dcu")
+script = ExtResource("1_t666e")
